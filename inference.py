@@ -105,7 +105,7 @@ def main(args):
         ################################### save results to output folder. ###########################################
         save_to_mp4(
             _video_frames, 
-            f"/workspace/MimicMotion/{args.output_dir}/mimic_video.mp4"
+            f"{args.output_dir}mimic_video.mp4"
             fps=task.fps,
         )
 
